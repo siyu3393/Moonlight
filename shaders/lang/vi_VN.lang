@@ -1,0 +1,242 @@
+#shaders/lang/vi_VN.lang
+
+#Profiles
+profile.POTATO=§4§lKém
+profile.DEFAULT=§a§lMặc định
+profile.VIBRANT=§d§lRực rỡ
+profile.CLARITY=§e§lTrong trẻo
+profile.FANTASY=§1§lHuyền ảo
+profile.LEGACY=§6§lTruyền thống
+profile.HORROR=§8§lKinh dị
+profile.comment=Cấu hình shader thay đổi phong cách và chủ đề hình ảnh.
+
+#Screens
+screen.PERFORMANCE_SETTINGS=Ánh sáng
+screen.PERFORMANCE_SETTINGS.comment=Các cài đặt liên quan trực tiếp đến ánh sáng và hiển thị trong game.
+
+screen.ATMOSPHERE_SETTINGS=Hiệu ứng hậu kỳ
+screen.ATMOSPHERE_SETTINGS.comment=Các cài đặt liên quan đến bầu khí quyển và hiệu ứng camera.
+
+screen.MATERIAL_SETTINGS=Vật liệu
+screen.MATERIAL_SETTINGS.comment=Các cài đặt liên quan đến vật liệu và kết cấu của Minecraft.
+
+screen.GLOWING_STUFF_SETTINGS=Các khối phát sáng
+screen.GLOWING_STUFF_SETTINGS.comment=Các cài đặt để điều chỉnh phát sáng của các khối khác nhau.
+
+screen.WAVING_SETTINGS=Hiệu ứng chuyển động
+screen.WAVING_SETTINGS.comment=Các cài đặt về hiệu ứng chuyển động của vật thể.
+
+screen.WATER_SETTINGS=Nước
+screen.WATER_SETTINGS.comment=Các cài đặt liên quan đến nước.
+
+#Settings
+
+
+option.REALTIME_SHADOWS=Bóng đổ chân thực
+option.REALTIME_SHADOWS.comment=Bật bóng đổ thời gian thực thay đổi theo địa hình và góc mặt trời/mặt trăng. §c[-]§r Hiệu ứng này có thể ảnh hưởng nghiêm trọng đến hiệu suất.
+value.REALTIME_SHADOWS.true=§bBẬT
+value.REALTIME_SHADOWS.false=§cTẮT
+
+option.ENTITY_SHADOWS=Bóng đổ thực thể
+option.ENTITY_SHADOWS.comment=Cho phép thực thể và khối tạo bóng đổ.
+value.ENTITY_SHADOWS.true=§dBẬT
+value.ENTITY_SHADOWS.false=§eTẮT
+
+option.CLOUD_STYLE_DEFINE=Kiểu mây
+option.CLOUD_STYLE_DEFINE.comment=Xác định kiểu của mây.
+value.CLOUD_STYLE_DEFINE.1=Vanilla
+value.CLOUD_STYLE_DEFINE.3=Chân thực
+
+option.NETHER_STORM_HEIGHT=Độ cao bão Nether
+option.NETHER_STORM_HEIGHT.comment=Xác định độ cao của bão Nether. Giảm giá trị này sẽ khiến bão Nether tập trung gần "Độ cao dưới của bão Nether".
+
+option.T_EXPOSURE=Độ phơi sáng
+option.T_EXPOSURE.comment=Điều chỉnh độ sáng tổng thể của toàn bộ hình ảnh.
+
+option.T_LOWER_CURVE=Độ tương phản
+option.T_LOWER_CURVE.comment=Điều chỉnh độ tương phản của màu tối.
+
+option.T_VIBRANCE=Độ rực rỡ
+option.T_VIBRANCE.comment=Điều chỉnh độ đậm của màu sắc trong hình ảnh, nhưng các điểm ảnh đã có màu sắc sẽ ít bị ảnh hưởng hơn.
+
+option.WATER_STYLE_DEFINE=Kiểu nước
+option.WATER_STYLE_DEFINE.comment=Xác định kiểu của nước.
+value.WATER_STYLE_DEFINE.2=Vanilla
+value.WATER_STYLE_DEFINE.3=Moonlight
+
+option.WATER_QUALITY=Chất lượng nước
+option.WATER_QUALITY.comment=Điều chỉnh chất lượng tổng thể của hiệu ứng nước. Giá trị cao hơn cho phép hiển thị phản chiếu và hiệu ứng nước chi tiết hơn.
+value.WATER_QUALITY.1=Thấp
+value.WATER_QUALITY.2=Trung bình
+value.WATER_QUALITY.3=Cao
+
+option.WATER_REFLECT_QUALITY=Chất lượng phản chiếu nước
+option.WATER_REFLECT_QUALITY.comment=Điều chỉnh chất lượng phản chiếu trên bề mặt nước. Giá trị cao hơn tạo ra phản chiếu chi tiết hơn.
+value.WATER_REFLECT_QUALITY.0=Tắt
+value.WATER_REFLECT_QUALITY.1=Thấp
+value.WATER_REFLECT_QUALITY.2=Cao
+
+option.WATER_REFRACTION_INTENSITY=Khúc xạ nước
+option.WATER_REFRACTION_INTENSITY.comment=Điều chỉnh mức độ khúc xạ ánh sáng khi đi qua nước, ảnh hưởng đến sự biến dạng của vật thể khi nhìn qua nước.
+
+option.WATER_CAUSTIC_STYLE_DEFINE=Kiểu ánh sáng dưới nước
+option.WATER_CAUSTIC_STYLE_DEFINE.comment=Điều chỉnh kiểu của các mẫu ánh sáng chiếu qua nước lên bề mặt dưới nước.
+value.WATER_CAUSTIC_STYLE_DEFINE.-1=Tắt
+value.WATER_CAUSTIC_STYLE_DEFINE.1=Cơ bản
+value.WATER_CAUSTIC_STYLE_DEFINE.3=Chi tiết
+
+option.WATER_ALPHA_MULT=Độ trong suốt nước
+option.WATER_ALPHA_MULT.comment=Điều chỉnh độ trong suốt của nước. Giá trị thấp hơn làm nước trong hơn, giá trị cao hơn làm nước đục hơn.
+
+option.WATER_FOG_MULT=Độ dày sương mù dưới nước
+option.WATER_FOG_MULT.comment=Điều chỉnh độ dày của sương mù dưới nước. Giá trị cao hơn tạo ra sương mù dày hơn làm giảm tầm nhìn dưới nước.
+
+option.WATER_BUMPINESS=Cường độ sóng nước
+option.WATER_BUMPINESS.comment=Điều chỉnh cường độ của sóng trên bề mặt nước. Giá trị cao hơn tạo ra mẫu sóng rõ rệt hơn trên bề mặt nước.
+
+option.WATER_SPEED_MULT=Tốc độ sóng nước
+option.WATER_SPEED_MULT.comment=Điều chỉnh tốc độ chuyển động của sóng nước. Giá trị cao hơn làm sóng di chuyển nhanh hơn trên bề mặt nước.
+
+option.WATER_BUMP_SMALL=Cường độ sóng nhỏ
+option.WATER_BUMP_SMALL.comment=Điều chỉnh cường độ của gợn sóng nhỏ trên bề mặt nước. Giá trị cao hơn tạo ra chi tiết sóng nhỏ rõ rệt hơn.
+
+option.WATER_BUMP_MED=Cường độ sóng trung bình
+option.WATER_BUMP_MED.comment=Điều chỉnh cường độ của sóng kích thước trung bình trên bề mặt nước. Những sóng này tạo ra mẫu chuyển động chính của nước.
+
+option.WATER_BUMP_BIG=Cường độ sóng lớn
+option.WATER_BUMP_BIG.comment=Điều chỉnh cường độ của sóng lớn trên bề mặt nước. Những sóng này tạo ra mẫu chuyển động rộng hơn trên nước.
+
+option.WATER_SIZE_MULT=Tỷ lệ mẫu nước
+option.WATER_SIZE_MULT.comment=Điều chỉnh tỷ lệ của mẫu sóng nước. Giá trị thấp hơn tạo ra mẫu sóng nhỏ hơn, xuất hiện thường xuyên hơn, trong khi giá trị cao hơn tạo ra mẫu lớn hơn, phân bố rộng hơn.
+
+option.WATER_FOAM_I=Cường độ bọt nước
+option.WATER_FOAM_I.comment=Điều chỉnh khả năng hiển thị và lượng bọt xuất hiện trên bề mặt nước, đặc biệt là nơi nước tiếp xúc với khối. Đặt thành 0 để tắt hoàn toàn bọt nước.
+
+option.WATERCOLOR_MODE=Chế độ màu nước
+option.WATERCOLOR_MODE.comment=Xác định cách tính toán màu nước.
+value.WATERCOLOR_MODE.0=Đơn giản
+value.WATERCOLOR_MODE.2=Theo biome
+value.WATERCOLOR_MODE.3=Theo biome nâng cao
+
+option.WATERCOLOR_R=Màu nước (Đỏ)
+option.WATERCOLOR_R.comment=Điều chỉnh thành phần màu đỏ của nước. 100% là mặc định, giá trị thấp hơn giảm màu đỏ, giá trị cao hơn tăng màu đỏ.
+
+option.WATERCOLOR_G=Màu nước (Xanh lá)
+option.WATERCOLOR_G.comment=Điều chỉnh thành phần màu xanh lá của nước. 100% là mặc định, giá trị thấp hơn giảm màu xanh lá, giá trị cao hơn tăng màu xanh lá.
+
+option.WATERCOLOR_B=Màu nước (Xanh dương)
+option.WATERCOLOR_B.comment=Điều chỉnh thành phần màu xanh dương của nước. 100% là mặc định, giá trị thấp hơn giảm màu xanh dương, giá trị cao hơn tăng màu xanh dương.
+
+option.UNDERWATERCOLOR_R=Màu dưới nước (Đỏ)
+option.UNDERWATERCOLOR_R.comment=Điều chỉnh thành phần màu đỏ của sương mù dưới nước. 100% là mặc định, giá trị thấp hơn giảm màu đỏ, giá trị cao hơn tăng màu đỏ.
+
+option.UNDERWATERCOLOR_G=Màu dưới nước (Xanh lá)
+option.UNDERWATERCOLOR_G.comment=Điều chỉnh thành phần màu xanh lá của sương mù dưới nước. 100% là mặc định, giá trị thấp hơn giảm màu xanh lá, giá trị cao hơn tăng màu xanh lá.
+
+option.UNDERWATERCOLOR_B=Màu dưới nước (Xanh dương)
+option.UNDERWATERCOLOR_B.comment=Điều chỉnh thành phần màu xanh dương của sương mù dưới nước. 100% là mặc định, giá trị thấp hơn giảm màu xanh dương, giá trị cao hơn tăng màu xanh dương.
+
+option.BRIGHT_CAVE_WATER=Nước sáng trong hang
+option.BRIGHT_CAVE_WATER.comment=Tăng khả năng hiển thị của nước trong hang và khu vực tối để dễ dàng di chuyển dưới nước hơn.
+
+option.UNDERWATER_DISTORTION=Biến dạng dưới nước
+option.UNDERWATER_DISTORTION.comment=Thêm hiệu ứng khúc xạ nhẹ cho màn hình khi camera ở dưới nước.
+
+option.SUN_MOON_STYLE_DEFINE=Kiểu mặt trời/mặt trăng
+option.SUN_MOON_STYLE_DEFINE.comment=Xác định kiểu của mặt trời/mặt trăng.
+value.SUN_MOON_STYLE_DEFINE.1=Vanilla
+value.SUN_MOON_STYLE_DEFINE.2=Chân thực
+
+option.SUN_MOON_HORIZON=Đường chân trời mặt trời/mặt trăng
+option.SUN_MOON_HORIZON.comment=Ngăn mặt trời/mặt trăng xuất hiện dưới đường chân trời.
+
+option.NIGHT_NEBULA=Tinh vân ban đêm
+option.NIGHT_NEBULA.comment=Thêm tinh vân kiểu thiên hà vào bầu trời đêm. Tinh vân được tạo theo thuật toán và sẽ trông khác nhau mỗi đêm.
+
+option.BLOOM=Ánh sáng lan tỏa
+option.BLOOM.comment=Bật hiệu ứng ánh sáng mờ từ các vật thể sáng và độ ẩm.
+
+option.FXAA=Khử răng cưa (FXAA)
+option.FXAA.comment=Bật Fast Approximate Anti-Aliasing (FXAA), về cơ bản là một hiệu ứng tạo ra hình ảnh mượt mà hơn.
+value.FXAA.true=§aBẬT
+value.FXAA.false=§eTẮT
+
+option.LENSFLARE=Hiệu ứng thấu kính
+option.LENSFLARE.comment=Thêm hiệu ứng phản chiếu thấu kính camera khi hướng về phía mặt trời hoặc mặt trăng.
+
+option.MOTION_BLURRING=Mờ chuyển động
+option.MOTION_BLURRING.comment=Áp dụng hiệu ứng mờ cho hình ảnh khi di chuyển camera.
+
+option.WORLD_BLUR=Mờ theo khoảng cách
+option.WORLD_BLUR.comment=Bật chế độ mờ thế giới. Mờ khoảng cách: Hiệu ứng mờ được áp dụng như sương mù, tùy thuộc vào khoảng cách từ camera. Độ sâu trường ảnh: Hiệu ứng mờ xảy ra tùy thuộc vào điểm lấy nét của camera.
+value.WORLD_BLUR.0=TẮT
+value.WORLD_BLUR.1=Mờ khoảng cách
+value.WORLD_BLUR.2=Độ sâu trường ảnh
+
+option.VIGNETTE_R=Hiệu ứng vignette
+option.VIGNETTE_R.comment=Áp dụng hiệu ứng tối các cạnh của màn hình.
+
+option.LESS_LAVA_FOG=Tầm nhìn tốt hơn trong nham thạch
+option.LESS_LAVA_FOG.comment=Giảm sương mù nham thạch để cải thiện tầm nhìn bên trong nham thạch.
+
+option.MINIMUM_LIGHT_MODE=Độ sáng
+option.MINIMUM_LIGHT_MODE.comment=Thêm ánh sáng bổ sung cho các khu vực không có ánh sáng trời.
+value.MINIMUM_LIGHT_MODE.0=Rất tối
+value.MINIMUM_LIGHT_MODE.1=Tối
+value.MINIMUM_LIGHT_MODE.2=Mặc định
+value.MINIMUM_LIGHT_MODE.3=Sáng
+value.MINIMUM_LIGHT_MODE.4=Rất sáng
+
+option.GENERATED_NORMALS=Tạo normal maps
+option.GENERATED_NORMALS.comment=Thêm chi tiết gồ ghề được tạo tự động cho bề mặt.
+
+option.COATED_TEXTURES=Kết cấu phủ bụi
+option.COATED_TEXTURES.comment=Thêm chi tiết bụi được tạo tự động cho kết cấu.
+
+option.ENTITY_GN_AND_CT=Cho phép GN và CT trên thực thể
+option.ENTITY_GN_AND_CT.comment=Quyết định xem Normal Maps và Kết cấu phủ bụi có thể xuất hiện trên thực thể hay không.
+
+option.GLOWING_ORE_IRON=Quặng sắt phát sáng
+option.GLOWING_ORE_GOLD=Quặng vàng phát sáng
+option.GLOWING_ORE_COPPER=Quặng đồng phát sáng
+option.GLOWING_ORE_REDSTONE=Quặng redstone phát sáng §e[*]§r
+option.GLOWING_ORE_REDSTONE.comment=§e[*]§r Tất cả quặng redstone sẽ vẫn phát sáng nếu chúng được "kích hoạt", bất kể cài đặt này.
+option.GLOWING_ORE_LAPIS=Quặng lapis lazuli phát sáng
+option.GLOWING_ORE_EMERALD=Quặng ngọc lục bảo phát sáng
+option.GLOWING_ORE_DIAMOND=Quặng kim cương phát sáng
+option.GLOWING_ORE_NETHERQUARTZ=Quặng thạch anh địa ngục phát sáng
+option.GLOWING_ORE_NETHERGOLD=Quặng vàng địa ngục phát sáng
+option.GLOWING_ORE_GILDEDBLACKSTONE=Đá đen mạ vàng phát sáng
+option.GLOWING_ORE_ANCIENTDEBRIS=Mảnh vỡ cổ đại phát sáng
+option.GLOWING_ORE_MODDED=Quặng mod phát sáng §e[*]§r
+option.GLOWING_ORE_MODDED.comment=§e[*]§r Bạn có thể thêm ID quặng mod vào tệp "Hadron-->shaders-->block.properties" để làm chúng phát sáng. Bạn có thể mở block.properties bằng bất kỳ trình soạn thảo văn bản nào như notepad, sau đó thêm ID khối quặng mod bên cạnh "block.10024=".
+
+option.EMISSIVE_REDSTONE_BLOCK=Khối redstone phát sáng
+
+option.EMISSIVE_LAPIS_BLOCK=Khối lapis lazuli phát sáng
+
+option.GLOWING_ARMOR_TRIM=Viền giáp phát sáng §e[*]§r
+option.GLOWING_ARMOR_TRIM.comment=Làm cho viền giáp phát sáng. §e[*]§r Tính năng này chỉ hoạt động trên Iris, vì Optifine không hỗ trợ phát hiện viền giáp.
+
+option.NO_WAVING_INDOORS=Không chuyển động trong không gian kín
+option.NO_WAVING_INDOORS.comment=Ngăn các khối chuyển động trong khu vực kín bằng cách sử dụng ánh sáng trời.
+
+option.WAVING_FOLIAGE=Thảm thực vật chuyển động
+option.WAVING_FOLIAGE.comment=Thêm chuyển động cho thảm thực vật để mô phỏng gió.
+
+option.WAVING_LEAVES=Lá chuyển động
+option.WAVING_LEAVES.comment=Thêm chuyển động cho lá để mô phỏng gió.
+
+option.WAVING_LAVA=Nham thạch chuyển động
+option.WAVING_LAVA.comment=Thêm chuyển động liên tục cho nham thạch.
+
+option.WAVING_WATER_VERTEX=Nước chuyển động
+option.WAVING_WATER_VERTEX.comment=Thêm chuyển động cho vị trí nước để mô phỏng gió.
+
+option.WAVING_RAIN=Mưa/Tuyết chuyển động
+option.WAVING_RAIN.comment=Thêm chuyển động cho kết cấu mưa và tuyết rơi để làm cho nó trông linh động hơn. 
+
+option.FOG_TOGGLE=Sương mù
+option.FOG_TOGGLE.comment=Bật hoặc tắt hiệu ứng sương mù (fog) trong shader. Tắt để nhìn xa không bị mờ.
+value.FOG_TOGGLE.0=Tắt
+value.FOG_TOGGLE.1=Bật 

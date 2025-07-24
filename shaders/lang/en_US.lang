@@ -1,0 +1,242 @@
+#shaders/lang/en_us.lang
+
+#Profiles
+profile.POTATO=§4§lPotato
+profile.DEFAULT=§a§lDefault
+profile.VIBRANT=§d§lVibrant
+profile.CLARITY=§e§lClarity
+profile.FANTASY=§1§lFantasy
+profile.LEGACY=§6§lVoyager
+profile.HORROR=§8§lHorror
+profile.comment=Shader profiles change visual style and theme.
+
+#Screens
+screen.PERFORMANCE_SETTINGS=Lighting
+screen.PERFORMANCE_SETTINGS.comment=Settings that directly relate to the lighting and rendering of the game.
+
+screen.ATMOSPHERE_SETTINGS=Post Processing
+screen.ATMOSPHERE_SETTINGS.comment=Settings that relate to the atmosphere and camera effects.
+
+screen.MATERIAL_SETTINGS=Materials
+screen.MATERIAL_SETTINGS.comment=Settings that are related to the materials and textures of Minecraft.
+
+screen.GLOWING_STUFF_SETTINGS=Glowing Stuff
+screen.GLOWING_STUFF_SETTINGS.comment=Settings to adjust light emission of various blocks.
+
+screen.WAVING_SETTINGS=Waving Textures
+screen.WAVING_SETTINGS.comment=Settings that are about waving textures.
+
+screen.WATER_SETTINGS=Water
+screen.WATER_SETTINGS.comment=Settings that are related to water.
+
+#Settings
+
+
+option.REALTIME_SHADOWS=Realistic Shadows
+option.REALTIME_SHADOWS.comment=Enables real-time shadows that move depending on the terrain and sun/moon angle. §c[-]§r This effect can severely impact performance.
+value.REALTIME_SHADOWS.true=§bON
+value.REALTIME_SHADOWS.false=§cOFF
+
+option.ENTITY_SHADOWS=Entity Shadows
+option.ENTITY_SHADOWS.comment=Enables the ability for entities and block entities to cast shadows.
+value.ENTITY_SHADOWS.true=§dON
+value.ENTITY_SHADOWS.false=§eOFF
+
+option.CLOUD_STYLE_DEFINE=Cloud Style
+option.CLOUD_STYLE_DEFINE.comment=Determines the style of clouds.
+value.CLOUD_STYLE_DEFINE.1=Vanilla
+value.CLOUD_STYLE_DEFINE.3=Realistic
+
+option.NETHER_STORM_HEIGHT=Nether Storm Height
+option.NETHER_STORM_HEIGHT.comment=Determines how tall the Nether Storm will form. Decrasing this value will result in the Nether Storm gathering near the "Nether Storm Lower Altitude".
+
+option.T_EXPOSURE=Exposure
+option.T_EXPOSURE.comment=Adjusts the overall brightness of the whole image.
+
+option.T_LOWER_CURVE=Contrast
+option.T_LOWER_CURVE.comment=Adjusts contrast of darker colors.
+
+option.T_VIBRANCE=Vibrance
+option.T_VIBRANCE.comment=Adjusts the colorfulness of the image, but already colorful pixels are less affected.
+
+option.WATER_STYLE_DEFINE=Water Style
+option.WATER_STYLE_DEFINE.comment=Determines the style of water.
+value.WATER_STYLE_DEFINE.2=Vanilla
+value.WATER_STYLE_DEFINE.3=Moonlight
+
+option.WATER_QUALITY=Water Quality
+option.WATER_QUALITY.comment=Controls the overall quality of water effects. Higher values enable more detailed water reflections and effects.
+value.WATER_QUALITY.1=Low
+value.WATER_QUALITY.2=Medium
+value.WATER_QUALITY.3=High
+
+option.WATER_REFLECT_QUALITY=Water Reflection Quality
+option.WATER_REFLECT_QUALITY.comment=Controls the quality of reflections on water surfaces. Higher values create more detailed reflections.
+value.WATER_REFLECT_QUALITY.0=Off
+value.WATER_REFLECT_QUALITY.1=Low
+value.WATER_REFLECT_QUALITY.2=High
+
+option.WATER_REFRACTION_INTENSITY=Water Refraction
+option.WATER_REFRACTION_INTENSITY.comment=Controls how much light bends when passing through water, affecting the distortion of objects seen through water.
+
+option.WATER_CAUSTIC_STYLE_DEFINE=Caustic Style
+option.WATER_CAUSTIC_STYLE_DEFINE.comment=Controls the style of light patterns projected through water onto underwater surfaces.
+value.WATER_CAUSTIC_STYLE_DEFINE.-1=Disabled
+value.WATER_CAUSTIC_STYLE_DEFINE.1=Basic
+value.WATER_CAUSTIC_STYLE_DEFINE.3=Detailed
+
+option.WATER_ALPHA_MULT=Water Transparency
+option.WATER_ALPHA_MULT.comment=Adjusts the transparency of water. Lower values make water more transparent, higher values make it more opaque.
+
+option.WATER_FOG_MULT=Water Fog Density
+option.WATER_FOG_MULT.comment=Controls the density of fog underwater. Higher values create thicker fog that reduces visibility underwater.
+
+option.WATER_BUMPINESS=Water Wave Intensity
+option.WATER_BUMPINESS.comment=Adjusts the intensity of water surface waves. Higher values create more pronounced wave patterns on water surfaces.
+
+option.WATER_SPEED_MULT=Water Wave Speed
+option.WATER_SPEED_MULT.comment=Controls how fast water waves move. Higher values make waves move more quickly across water surfaces.
+
+option.WATER_BUMP_SMALL=Small Wave Intensity
+option.WATER_BUMP_SMALL.comment=Controls the intensity of small ripples on the water surface. Higher values create more pronounced small wave details.
+
+option.WATER_BUMP_MED=Medium Wave Intensity
+option.WATER_BUMP_MED.comment=Controls the intensity of medium-sized waves on the water surface. These waves create the main pattern of water movement.
+
+option.WATER_BUMP_BIG=Large Wave Intensity
+option.WATER_BUMP_BIG.comment=Controls the intensity of large waves on the water surface. These waves create the broader movement patterns across water.
+
+option.WATER_SIZE_MULT=Water Pattern Scale
+option.WATER_SIZE_MULT.comment=Adjusts the scale of the water wave pattern. Lower values create smaller, more frequent wave patterns, while higher values create larger, more spread out patterns.
+
+option.WATER_FOAM_I=Water Foam Intensity
+option.WATER_FOAM_I.comment=Controls the visibility and amount of foam that appears on water surfaces, especially where water meets blocks. Set to 0 to disable foam completely.
+
+option.WATERCOLOR_MODE=Water Color Mode
+option.WATERCOLOR_MODE.comment=Determines how water colors are calculated.
+value.WATERCOLOR_MODE.0=Simple
+value.WATERCOLOR_MODE.2=Biome-based
+value.WATERCOLOR_MODE.3=Enhanced Biome-based
+
+option.WATERCOLOR_R=Water Color (Red)
+option.WATERCOLOR_R.comment=Adjusts the red component of water color. 100% is default, lower values decrease red, higher values increase red.
+
+option.WATERCOLOR_G=Water Color (Green)
+option.WATERCOLOR_G.comment=Adjusts the green component of water color. 100% is default, lower values decrease green, higher values increase green.
+
+option.WATERCOLOR_B=Water Color (Blue)
+option.WATERCOLOR_B.comment=Adjusts the blue component of water color. 100% is default, lower values decrease blue, higher values increase blue.
+
+option.UNDERWATERCOLOR_R=Underwater Color (Red)
+option.UNDERWATERCOLOR_R.comment=Adjusts the red component of underwater fog. 100% is default, lower values decrease red, higher values increase red.
+
+option.UNDERWATERCOLOR_G=Underwater Color (Green)
+option.UNDERWATERCOLOR_G.comment=Adjusts the green component of underwater fog. 100% is default, lower values decrease green, higher values increase green.
+
+option.UNDERWATERCOLOR_B=Underwater Color (Blue)
+option.UNDERWATERCOLOR_B.comment=Adjusts the blue component of underwater fog. 100% is default, lower values decrease blue, higher values increase blue.
+
+option.BRIGHT_CAVE_WATER=Bright Cave Water
+option.BRIGHT_CAVE_WATER.comment=Increases the visibility of water in caves and dark areas to make navigation easier underwater.
+
+option.UNDERWATER_DISTORTION=Underwater Distortion
+option.UNDERWATER_DISTORTION.comment=Adds subtle refraction to the screen when the camera is inside water.
+
+option.SUN_MOON_STYLE_DEFINE=Sun/Moon Style
+option.SUN_MOON_STYLE_DEFINE.comment=Determines the style of sun/moon.
+value.SUN_MOON_STYLE_DEFINE.1=Vanilla
+value.SUN_MOON_STYLE_DEFINE.2=Realistic
+
+option.SUN_MOON_HORIZON=Sun/Moon Horizon
+option.SUN_MOON_HORIZON.comment=Prevents the sun/moon from appearing below the horizon line.
+
+option.NIGHT_NEBULA=Night Nebulae
+option.NIGHT_NEBULA.comment=Adds galaxy-style nebulae to the night sky. The nebulae are procedurally generated, and they will look different every night.
+
+option.BLOOM=Bloom
+option.BLOOM.comment=Enables blurry glow from bright objects and humidity.
+
+option.FXAA=Anti-Aliasing (FXAA)
+option.FXAA.comment=Enables Fast Approximate Anti-Aliasing (FXAA), which is basically an effect that produces smoother image.
+value.FXAA.true=§aON
+value.FXAA.false=§eOFF
+
+option.LENSFLARE=Lens Flare
+option.LENSFLARE.comment=Adds camera lens reflection effect when towards the sun or moon.
+
+option.MOTION_BLURRING=Motion Blur
+option.MOTION_BLURRING.comment=Applies blur to the image when moving the camera.
+
+option.WORLD_BLUR=Distance Blur
+option.WORLD_BLUR.comment=Enables world blurring. Distance Blur: Blur gets applied like fog, depending on the distance from the camera. Depth of Field: Blurring happens depending on the focus point of the camera.
+value.WORLD_BLUR.0=OFF
+value.WORLD_BLUR.1=Distance Blur
+value.WORLD_BLUR.2=Depth of Field
+
+option.VIGNETTE_R=Vignette
+option.VIGNETTE_R.comment=Applies darkening around the edges of the screen.
+
+option.LESS_LAVA_FOG=Better Visibility Inside Lava
+option.LESS_LAVA_FOG.comment=Reduces the lava fog to improve visibility inside lava.
+
+option.MINIMUM_LIGHT_MODE=Brightness
+option.MINIMUM_LIGHT_MODE.comment=Adds extra lighting to areas that don't have skylight.
+value.MINIMUM_LIGHT_MODE.0=Very Dark
+value.MINIMUM_LIGHT_MODE.1=Dark
+value.MINIMUM_LIGHT_MODE.2=Default
+value.MINIMUM_LIGHT_MODE.3=Bright
+value.MINIMUM_LIGHT_MODE.4=Very Bright
+
+option.GENERATED_NORMALS=Generated Normals
+option.GENERATED_NORMALS.comment=Adds auto-generated bumpy details to surfaces.
+
+option.COATED_TEXTURES=Coated Textures
+option.COATED_TEXTURES.comment=Adds auto-generated dusty details to textures.
+
+option.ENTITY_GN_AND_CT=Allow GN and CT on Entities
+option.ENTITY_GN_AND_CT.comment=Decides if Generated Normals and Coated Textures can appear on entities.
+
+option.GLOWING_ORE_IRON=Glowing Iron Ore
+option.GLOWING_ORE_GOLD=Glowing Gold Ore
+option.GLOWING_ORE_COPPER=Glowing Copper Ore
+option.GLOWING_ORE_REDSTONE=Glowing Redstone Ore §e[*]§r
+option.GLOWING_ORE_REDSTONE.comment=§e[*]§r All redstone ores will still glow if they are "activated" regardless of this setting.
+option.GLOWING_ORE_LAPIS=Glowing Lapis Lazuli Ore
+option.GLOWING_ORE_EMERALD=Glowing Emerald Ore
+option.GLOWING_ORE_DIAMOND=Glowing Diamond Ore
+option.GLOWING_ORE_NETHERQUARTZ=Glowing Nether Quartz Ore
+option.GLOWING_ORE_NETHERGOLD=Glowing Nether Gold Ore
+option.GLOWING_ORE_GILDEDBLACKSTONE=Glowing Gilded Blackstone
+option.GLOWING_ORE_ANCIENTDEBRIS=Glowing Ancient Debris
+option.GLOWING_ORE_MODDED=Glowing Modded Ores §e[*]§r
+option.GLOWING_ORE_MODDED.comment=§e[*]§r You can add modded ore IDs to "Hadron-->shaders-->block.properties" file in order to make them glow. You can open block.properties using any text editor like notepad, and then add modded ore block IDs next to "block.10024=".
+
+option.EMISSIVE_REDSTONE_BLOCK=Glowing Redstone Block
+
+option.EMISSIVE_LAPIS_BLOCK=Glowing Lapis Lazuli Block
+
+option.GLOWING_ARMOR_TRIM=Glowing Armor Trim §e[*]§r
+option.GLOWING_ARMOR_TRIM.comment=Makes armor trims emissive. §e[*]§r This feature only works on Iris, as Optifine doesn't support armor trim detection.
+
+option.NO_WAVING_INDOORS=No Waving in Closed Areas
+option.NO_WAVING_INDOORS.comment=Prevents blocks from waving in closed areas using skylight.
+
+option.WAVING_FOLIAGE=Waving Foliage
+option.WAVING_FOLIAGE.comment=Adds movement to foliage to simulate wind.
+
+option.WAVING_LEAVES=Waving Leaves
+option.WAVING_LEAVES.comment=Adds movement to leaves to simulate wind.
+
+option.WAVING_LAVA=Waving Lava
+option.WAVING_LAVA.comment=Adds constant movement to lava.
+
+option.WAVING_WATER_VERTEX=Waving Water
+option.WAVING_WATER_VERTEX.comment=Adds movement to water position to simulate wind.
+
+option.WAVING_RAIN=Waving Rain/Snow
+option.WAVING_RAIN.comment=Adds movement to falling rain and snow textures to make it look more dynamic.
+
+option.FOG_TOGGLE=Fog
+option.FOG_TOGGLE.comment=Enable or disable fog effect in the shader. Disabling will make distant chunks always clear.
+value.FOG_TOGGLE.0=OFF
+value.FOG_TOGGLE.1=ON
